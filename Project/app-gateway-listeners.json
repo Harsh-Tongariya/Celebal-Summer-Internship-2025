@@ -1,0 +1,13 @@
+{
+  "frontendListeners": [
+    {
+      "name": "HttpsListener",
+      "properties": {
+        "frontendIPConfiguration": {"id": "<publicFrontendIP_ID>"},
+        "frontendPort": {"id": "<httpsPortID>"},
+        "protocol": "Https",
+        "sslCertificate": {"id": "<sslCertID>"}
+      }
+    }
+  ]
+}

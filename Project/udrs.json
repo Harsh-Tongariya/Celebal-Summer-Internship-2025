@@ -1,0 +1,15 @@
+{
+  "name": "SpokeToFirewallRoute",
+  "properties": {
+    "routes": [
+      {
+        "name": "defaultRoute",
+        "properties": {
+          "addressPrefix": "0.0.0.0/0",
+          "nextHopType": "VirtualAppliance",
+          "nextHopIpAddress": "10.0.0.4"
+        }
+      }
+    ]
+  }
+}

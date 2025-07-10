@@ -1,0 +1,14 @@
+{
+  "name": "AzureBastionHost",
+  "properties": {
+    "ipConfigurations": [
+      {
+        "name": "bastionIP",
+        "properties": {
+          "subnet": {"id": "<bastionSubnetID>"},
+          "publicIPAddress": {"id": "<publicIPID>"}
+        }
+      }
+    ]
+  }
+}

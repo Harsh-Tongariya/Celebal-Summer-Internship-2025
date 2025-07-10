@@ -1,0 +1,17 @@
+{
+  "ruleCollectionGroups": [
+    {
+      "name": "AllowInternalTraffic",
+      "rules": [
+        {
+          "ruleType": "NetworkRule",
+          "name": "AllowDNS",
+          "ipProtocols": ["UDP"],
+          "sourceAddresses": ["*"],
+          "destinationAddresses": ["*"],
+          "destinationPorts": ["53"]
+        }
+      ]
+    }
+  ]
+}
