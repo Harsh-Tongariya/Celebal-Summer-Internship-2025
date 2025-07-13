@@ -1,0 +1,21 @@
+{
+  "vnet": {
+    "name": "MyVNet",
+    "addressPrefix": "10.1.0.0/16",
+    "subnet": {
+      "name": "MySubnet",
+      "addressPrefix": "10.1.0.0/24"
+    },
+    "gatewaySubnet": {
+      "name": "GatewaySubnet",
+      "addressPrefix": "10.1.1.0/24"
+    }
+  },
+  "vpnGateway": {
+    "name": "MyVpnGateway",
+    "type": "Vpn",
+    "vpnType": "RouteBased",
+    "sku": "VpnGw1",
+    "clientAddressPool": "172.16.0.0/24"
+  }
+}

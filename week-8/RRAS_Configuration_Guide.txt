@@ -1,0 +1,9 @@
+# RRAS Configuration Manual
+
+1. Open Server Manager on the RRAS VM.
+2. Add Roles: Network Policy and Access Services > Routing and Remote Access.
+3. Configure:
+   - VPN Access
+   - NAT Routing
+4. Use Demand-Dial interface for Azure VPN Gateway.
+5. Use the Shared Key for IPSec (same as Azure connection).

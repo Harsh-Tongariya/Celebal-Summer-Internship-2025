@@ -1,0 +1,7 @@
+# Azure VPN Configuration
+
+1. Create VNet with address space 10.1.0.0/16.
+2. Add Subnet: 10.1.1.0/24 and GatewaySubnet: 10.1.255.0/27.
+3. Create Public IP and VPN Gateway (Route-based).
+4. Create Local Network Gateway with RRAS Public IP.
+5. Create S2S Connection with shared key and IKEv2.
